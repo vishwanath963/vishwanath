@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+ border: 1px solid;
+ height: 100px;
+ width: 100px;
+ margin: 10px;
+}
+.box:hover{
+    background-color: brown;
+       
+}
+.box:active{background-color: rgb(243, 150, 10);}
+.a:active{
+    background-color: aqua;
+}
+a{
+    background-color: aquamarine;
+    
+}
+div{
+    float:left;
+}

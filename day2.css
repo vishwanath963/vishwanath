@@ -1,0 +1,28 @@
+body{
+    background:url(../css/god-lord-krishna-wallpaper-preview\(9\).jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: aqua;
+    
+}
+div{
+    color: blueviolet;
+    background:url(../css/radha-krishna-radha-krishna-wallpaper-preview.jpg);
+    background-size: cover;
+}
+.main{
+    color: rgb(232, 12, 185);
+
+}
+.main1{
+    color: rgb(170, 232, 12);
+
+}
+.sec{
+    background: url(../css/god-lord-krishna-wallpaper-preview\(9\).jpg);
+    height: 100px;
+    width: 50px;
+}

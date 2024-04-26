@@ -1,0 +1,127 @@
+css started in 1994.recent version is css3.
+css is used to style/design/layout of the web page.
+css can be done in three ways.
+1.inline styling/inline css 
+css: it means gives css properties
+
+
+
+BASIC SELECTORS
+class ---(.)
+id------(#)
+tag
+            DAY2
+        ===============
+fonts 5 types
+1.serif
+2.sans-serif
+3.cursive
+4.fantasy
+5.monospace
+        fonts
+    ============
+font-weigth is used to thickness max 900
+font-style
+oblique---- complete sleep
+initial---- normal size
+unset----
+variant--small-caps,normal ..etc
+       TEXT
+    ===========
+text-align---left,right,center.
+text-trasform----lowercase,uppercase,captalize(1st letter only capital)
+text-decoration----
+
+            DAY-3
+        ===============
+    BOX MODEL
+-----------------
+Box madel is called "heart" of css.
+
+-> it expalins every element is treated as a box and it contain three things
+    1.padding
+          the gap between actual content of site is known as padding
+          you can specify padding-left,right,top,buttom.
+          padding-10px ->all sides applied.
+          padding-10px 20px -> 10 is applied for top and buttom and 20 is applied for right and left.
+          padding-top right buttom left.  
+
+2.margin
+        
+3.border
+
+        DAY-4
+    ==============
+different css styles --inline,internal,external
+colors--by name,hex,code,rgb,rgba,hsl,hsla
+units---px,em,rem,vw,,vj,%
+fonts---serif,sans-serif,cursive,fantasy,monospace
+text---align,size,color,shadow,transform
+background-url-image,repeat,size,position,attachement
+SELECTORS--name,
+
+
+.box-nth-child()even,odd
+.box-nth-lastchild()
+
+.box-nth-of-type()it starts from box 
+.p-nth-of-type()
+.box:empty---> anything write in the box/tag it does not select 
+
+
+pseudo classes are used to select elements based on their position
+p::first-letter{ font size:30px;}
+p::first-line{background-color:orange;}
+p::after{content:"vishwa"}it adds after the paragraph.
+same as p::before{}
+
+float:left,right;
+p{clear:left}-->it clears the float
+
+
+            DAY-5
+        ============
+flex:
+display:
+inline elements does not have height and width.
+inline-block it shows side by side .
+display:none--> remove the content
+visibility:hidden-->jusst hide the content 
+
+
+display property is used to display the element .
+Display:block-->it makes the element block.one after another.
+Display:inline-->it makes element appear side by side but height and width are not considered.
+inline-block-->it makes elements appear side by side.
+Display:flex-->flex is used to represent element in one dimension.
+flex-direction-->rows,column,row-reverse,column-reverse.
+flex-wrap:wrap,wrap-reverse,
+gap:10px; 
+justify-content:end,center,
+align-content:center;
+align-item:center;
+flex-basis:100px; it constant
+flex-grow:2;  
+flex-shrink:2;
+
+                      DAY-6
+                =================
+    GRID
+grid is used to display the items in two dimentional space
+By default grid container takes all elements as children.
+
+grid-template-columns:px px etc; repeat(3,100px);
+row-gap/column-gap
+place-items:center;
+grid-column-start:
+grid-column-end:
+grid-column:start/end values;
+grid-area;
+
+                    DAY-7
+                 =============
+
+                    DAY-8
+                 =============
+
+ 
